@@ -1,0 +1,151 @@
+.card {
+    background-color: inherit;
+
+    &__lists {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        margin-left: 132px;
+    }
+
+    &__title {
+        margin-top: 32px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+        margin-bottom: 16px;
+
+    }
+
+    &__paragraph {
+        width: 350px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+
+    &__image {
+        margin-left: 152px;
+    }
+
+    &__text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+        margin-top: 32px;
+
+    }
+
+    &__description {
+        width: 350px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+        margin-left: 38px;
+    }
+
+    &__name {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+
+    }
+
+    &__photo {
+        margin-left: 130px;
+    }
+
+    &__name {
+        margin-top: 32px;
+    }
+
+    &__segment {
+        width: 350px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width:768px)  {
+    .card {
+
+        &__lists {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__img {
+            margin-left: 80px;
+        }
+
+        &__paragraph {
+            width: 223px;
+        }
+
+        &__image {
+            margin-left: 90px;
+        }
+
+        &__description {
+            width: 223px;
+        }
+
+        &__photo {
+            margin-left: 80px;
+        }
+
+        &__segment {
+            width: 201px;
+        }
+
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .card {
+
+        &__lists {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+
+       
+
+    }
+}
